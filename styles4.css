@@ -1,0 +1,71 @@
+body {
+    background-color: #67afc0;
+ 
+    background-image: url("myphoto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @font-face {
+    font-family: 'HK Grotesk';
+    src: url('path/to/hk-grotesk-bold.woff2') format('woff2'),
+         url('path/to/hk-grotesk-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  p {
+    font-family: 'HK Grotesk', sans-serif;
+  }
+  h1 {
+    font-family: 'HK Grotesk', sans-serif;
+  }
+  footer {
+    font-family: 'HK Grotesk', sans-serif;
+  }
+  nav {
+    background-color: #333;
+    height: 50px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    flex-grow: 1;
+  }
+  
+  nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 50px;
+    padding: 0 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #666;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  #socialmedia {
+    font-family: 'Open Sans', sans-serif;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }  
